@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">19.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.Addemployee</td><td><a href="#m1"><b>AddAdminQualification</b>  </a></td><td class="numi">1</td><td>1543307837019</td><td class="numi">279</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">testcases.Addemployee</td><td><a href="#m2"><b>AddEmp</b>  </a></td><td class="numi">1</td><td>1543307837302</td><td class="numi">5334</td></tr><tr class="passedodd"><td><a href="#m3"><b>login</b>  </a></td><td class="numi">1</td><td>1543307834262</td><td class="numi">2756</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">testcases.Addemployee:AddAdminQualification</h2>
+<div style="padding-left:3em">
+<p>Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
+Command duration or timeout: 11 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a734ac1d-37f3-43dc-9429-8594ec258ac9</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+<br/>at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+<br/>at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
+<br/>at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+<br/>at testcases.Addemployee.AddAdminQualification(Addemployee.java:91)
+<br/>25 lines not shown
+<p>Caused by Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+<br/>at &lt;anonymous class&gt;..send(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;..ajax(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;..domManip/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;.f&lt;/&lt;.each(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
+<br/>at &lt;anonymous class&gt;..domManip(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;..append(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:3)
+<br/>at &lt;anonymous class&gt;..html/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;.f&lt;/&lt;.access(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
+<br/>at &lt;anonymous class&gt;..html(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;..success(https://opensource-demo.orangehrmlive.com/index.php/dashboard:914)
+<br/>at &lt;anonymous class&gt;.f.Callbacks/o(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
+<br/>at &lt;anonymous class&gt;.f.Callbacks/p.fireWith(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
+<br/>at &lt;anonymous class&gt;.w(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>at &lt;anonymous class&gt;..send/d(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testcases.Addemployee:AddEmp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcases.Addemployee:login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
