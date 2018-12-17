@@ -38,7 +38,7 @@ public class Addemployee extends Setup {
 	
 	boolean path;
 	
-	@BeforeClass
+	/*@BeforeClass
 	public static void startTest()
 	{
 		extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
@@ -47,7 +47,7 @@ public class Addemployee extends Setup {
 		extent.addSystemInfo("HostName", "Sagar");
 	//report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
 	test = extent.startTest("ExtentDemo");
-	}
+	}*/
 	@BeforeTest
 	public void start() {
 		//test = report.startTest("Add employee");
@@ -69,7 +69,7 @@ public class Addemployee extends Setup {
 	}catch(Exception e)
 		{
 		
-		test.log(LogStatus.FAIL, "Navigated to the specified URL and login unsucessfull");
+		//test.log(LogStatus.FAIL, "Navigated to the specified URL and login unsucessfull");
 		
 		
 		}

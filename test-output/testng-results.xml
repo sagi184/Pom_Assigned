@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19222" started-at="2018-11-27T08:37:04Z" finished-at="2018-11-27T08:37:23Z">
+  <suite name="Default suite" duration-ms="23350" started-at="2018-12-12T06:19:34Z" finished-at="2018-12-12T06:19:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19222" started-at="2018-11-27T08:37:04Z" finished-at="2018-11-27T08:37:23Z">
+    <test name="Default test" duration-ms="23350" started-at="2018-12-12T06:19:34Z" finished-at="2018-12-12T06:19:57Z">
       <class name="testcases.Addemployee">
-        <test-method status="PASS" signature="start()[pri:0, instance:testcases.Addemployee@204f30ec]" name="start" is-config="true" duration-ms="10012" started-at="2018-11-27T14:07:04Z" finished-at="2018-11-27T14:07:14Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.Addemployee@204f30ec]" name="start" is-config="true" duration-ms="13010" started-at="2018-12-12T11:49:34Z" finished-at="2018-12-12T11:49:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:testcases.Addemployee@204f30ec]" name="startTest" is-config="true" duration-ms="76" started-at="2018-11-27T14:07:14Z" finished-at="2018-11-27T14:07:14Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testcases.Addemployee@204f30ec]" name="startTest" is-config="true" duration-ms="202" started-at="2018-12-12T11:49:47Z" finished-at="2018-12-12T11:49:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Addemployee@204f30ec]" name="login" duration-ms="2756" started-at="2018-11-27T14:07:14Z" finished-at="2018-11-27T14:07:17Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Addemployee@204f30ec]" name="login" duration-ms="2838" started-at="2018-12-12T11:49:47Z" finished-at="2018-12-12T11:49:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="AddAdminQualification()[pri:0, instance:testcases.Addemployee@204f30ec]" name="AddAdminQualification" duration-ms="279" started-at="2018-11-27T14:07:17Z" finished-at="2018-11-27T14:07:17Z">
+        <test-method status="FAIL" signature="AddAdminQualification()[pri:0, instance:testcases.Addemployee@204f30ec]" name="AddAdminQualification" duration-ms="164" started-at="2018-12-12T11:49:50Z" finished-at="2018-12-12T11:49:50Z">
           <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
             <message>
               <![CDATA[Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Command duration or timeout: 11 milliseconds
+Command duration or timeout: 12 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'NTPC01507', ip: '172.16.4.202', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a734ac1d-37f3-43dc-9429-8594ec258ac9]]>
+Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Command duration or timeout: 11 milliseconds
+Command duration or timeout: 12 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'NTPC01507', ip: '172.16.4.202', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a734ac1d-37f3-43dc-9429-8594ec258ac9
+Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -78,10 +78,10 @@ Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offs
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'NTPC01507', ip: '172.16.4.202', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous1555351115423439350webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+	at <anonymous class>.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 	at <anonymous class>..send(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
 	at <anonymous class>..ajax(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
 	at <anonymous class>..domManip/<(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
@@ -91,7 +91,7 @@ Driver info: driver.version: unknown
 	at <anonymous class>..html/<(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
 	at <anonymous class>.f</<.access(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
 	at <anonymous class>..html(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at <anonymous class>..success(https://opensource-demo.orangehrmlive.com/index.php/dashboard:914)
+	at <anonymous class>..success(https://opensource-demo.orangehrmlive.com/index.php/dashboard:842)
 	at <anonymous class>.f.Callbacks/o(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
 	at <anonymous class>.f.Callbacks/p.fireWith(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
 	at <anonymous class>.w(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
@@ -102,15 +102,15 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddAdminQualification -->
-        <test-method status="PASS" signature="AddEmp()[pri:0, instance:testcases.Addemployee@204f30ec]" name="AddEmp" duration-ms="5334" started-at="2018-11-27T14:07:17Z" finished-at="2018-11-27T14:07:22Z">
+        <test-method status="PASS" signature="AddEmp()[pri:0, instance:testcases.Addemployee@204f30ec]" name="AddEmp" duration-ms="6205" started-at="2018-12-12T11:49:50Z" finished-at="2018-12-12T11:49:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Addemployee@204f30ec]" name="endTest" is-config="true" duration-ms="180" started-at="2018-11-27T14:07:22Z" finished-at="2018-11-27T14:07:22Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Addemployee@204f30ec]" name="endTest" is-config="true" duration-ms="291" started-at="2018-12-12T11:49:56Z" finished-at="2018-12-12T11:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Addemployee@204f30ec]" name="teardown" is-config="true" duration-ms="572" started-at="2018-11-27T14:07:22Z" finished-at="2018-11-27T14:07:23Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Addemployee@204f30ec]" name="teardown" is-config="true" duration-ms="603" started-at="2018-12-12T11:49:57Z" finished-at="2018-12-12T11:49:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

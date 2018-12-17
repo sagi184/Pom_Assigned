@@ -26,6 +26,7 @@ public static String captureScreenshot(WebDriver driver, String screenshotname){
 			System.out.println("Exception while taking screenshot "+e.getMessage());
 			
 		}
+		//return driver;
 		
 		
 		return screenshotname;
