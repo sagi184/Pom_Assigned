@@ -16,9 +16,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.ExtentReports;
+/*import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import com.relevantcodes.extentreports.LogStatus;*/
 
 import setups.Setup;
 
@@ -26,7 +26,7 @@ public class Leaveapplication extends Setup {
 	public static com.relevantcodes.extentreports.ExtentReports extent;
 	Setup s = new Setup();
 	WebDriver driver;
-	public static ExtentTest test;
+	//public static ExtentTest test;
 	
 	boolean path;
 	
