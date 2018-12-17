@@ -23,7 +23,7 @@ import com.relevantcodes.extentreports.LogStatus;*/
 import setups.Setup;
 
 public class Leaveapplication extends Setup {
-	public static com.relevantcodes.extentreports.ExtentReports extent;
+	//public static com.relevantcodes.extentreports.ExtentReports extent;
 	Setup s = new Setup();
 	WebDriver driver;
 	//public static ExtentTest test;
