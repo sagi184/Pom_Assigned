@@ -22,7 +22,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import setups.Setup;
 
 public class Addemployee extends Setup {
-	public static com.relevantcodes.extentreports.ExtentReports extent;
+	//public static com.relevantcodes.extentreports.ExtentReports extent;
 	Setup s = new Setup();
 	WebDriver driver;
 	//String firstname = "Arun";
@@ -33,7 +33,7 @@ public class Addemployee extends Setup {
 	static String firstname = RandomStringUtils.random(8, alphabet);
 	static String fname = Secondname; 
 	int m = 4;
-	public static ExtentTest test;
+	//public static ExtentTest test;
 	//static ExtentReports report;
 	
 	boolean path;
