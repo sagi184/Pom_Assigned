@@ -33,8 +33,8 @@ public class Leaveapplication extends Setup {
 	@BeforeTest
 	public void start() {
 
-	/*driver = s.Browser("Chrome");
-	extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
+	driver = s.Browser("Chrome");
+	/*extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
 			Boolean.valueOf(true));
 	extent.addSystemInfo("HostName", "Sagar");	*/
 	}

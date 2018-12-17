@@ -7,8 +7,6 @@
         <methods>
           <include name="start"/>
           <include name="teardown"/>
-          <include name="endTest"/>
-          <include name="startTest"/>
           <include name="AddAdminQualification"/>
         </methods>
       </class> <!-- testcases.Addemployee -->

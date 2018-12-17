@@ -51,7 +51,7 @@ public class Addemployee extends Setup {
 	@BeforeTest
 	public void start() {
 		//test = report.startTest("Add employee");
-	driver = s.Browser("Firefox");
+	driver = s.Browser("Chrome");
 	/*extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
 			Boolean.valueOf(true));
 	
@@ -65,7 +65,7 @@ public class Addemployee extends Setup {
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
-		test.log(LogStatus.PASS, test.addScreenCapture(Utility.captureScreenshot(driver, "image1"))+"Navigated to the specified URL and login sucessfully done");
+		//test.log(LogStatus.PASS, test.addScreenCapture(Utility.captureScreenshot(driver, "image1"))+"Navigated to the specified URL and login sucessfully done");
 	}catch(Exception e)
 		{
 		
@@ -123,7 +123,7 @@ public class Addemployee extends Setup {
 		}
 		}
 		
-		test.log(LogStatus.PASS, "Added");
+		//test.log(LogStatus.PASS, "Added");
 	}
 	@Test(priority = 3)
 	public void AddEmp()
@@ -154,10 +154,10 @@ public class Addemployee extends Setup {
     	driver.quit();
     	
     }
-	@AfterClass
+	/*@AfterClass
 	public static void endTest()
 	{
 	extent.endTest(test);
 	extent.flush();
-	}
+	}*/
 }

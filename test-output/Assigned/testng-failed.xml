@@ -3,19 +3,24 @@
 <suite name="Failed suite [Assigned]">
   <test name="Editing Empdetails(failed)">
     <classes>
+      <class name="testcases.Education_information">
+        <methods>
+          <include name="start"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.Education_information -->
       <class name="testcases.Addemployee">
         <methods>
           <include name="start"/>
-          <include name="endTest"/>
+          <include name="teardown"/>
           <include name="AddAdminQualification"/>
         </methods>
       </class> <!-- testcases.Addemployee -->
-      <class name="testcases.Education_information">
+      <class name="testcases.Leaveapplication">
         <methods>
-          <include name="EditQualification"/>
           <include name="start"/>
         </methods>
-      </class> <!-- testcases.Education_information -->
+      </class> <!-- testcases.Leaveapplication -->
     </classes>
   </test> <!-- Editing Empdetails(failed) -->
 </suite> <!-- Failed suite [Assigned] -->

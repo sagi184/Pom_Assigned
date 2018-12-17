@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 12 11:49:34 IST 2018</td>
+<td>Started on:</td><td>Mon Dec 17 14:19:20 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23350 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25744 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,25 +76,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testcases.Addemployee.AddAdminQualification()'><b>AddAdminQualification</b><br>Test class: testcases.Addemployee</td>
-<td><div><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Command duration or timeout: 12 milliseconds
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
-	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
-	at testcases.Addemployee.AddAdminQualification(Addemployee.java:91)
+<td><div><pre>java.lang.NullPointerException
+	at testcases.Addemployee.AddAdminQualification(Addemployee.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -119,48 +102,9 @@ Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-	at &lt;anonymous class&gt;..send(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..ajax(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..domManip/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;.f&lt;/&lt;.each(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;..domManip(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..append(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:3)
-	at &lt;anonymous class&gt;..html/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;.f&lt;/&lt;.access(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;..html(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..success(https://opensource-demo.orangehrmlive.com/index.php/dashboard:842)
-	at &lt;anonymous class&gt;.f.Callbacks/o(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;.f.Callbacks/p.fireWith(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;.w(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..send/d(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1794768050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1794768050'><pre>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Command duration or timeout: 12 milliseconds
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
-	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
-	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
-	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
-	at testcases.Addemployee.AddAdminQualification(Addemployee.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1206051975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1206051975'><pre>java.lang.NullPointerException
+	at testcases.Addemployee.AddAdminQualification(Addemployee.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -185,31 +129,9 @@ Session ID: bc72b932-afe4-4b2b-b080-0e5ce685e426
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (57.5, 15): https://opensource-demo.orangehrmlive.com/index.php/dashboard#
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;NTPC01507&apos;, ip: &apos;172.16.4.202&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SAGAR~1.CHA/AppData/Local/Temp/anonymous426376983931059661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-	at &lt;anonymous class&gt;..send(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..ajax(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..domManip/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;.f&lt;/&lt;.each(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;..domManip(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..append(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:3)
-	at &lt;anonymous class&gt;..html/&lt;(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;.f&lt;/&lt;.access(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;..html(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..success(https://opensource-demo.orangehrmlive.com/index.php/dashboard:842)
-	at &lt;anonymous class&gt;.f.Callbacks/o(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;.f.Callbacks/p.fireWith(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:2)
-	at &lt;anonymous class&gt;.w(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
-	at &lt;anonymous class&gt;..send/d(https://opensource-demo.orangehrmlive.com/webres_5acde3dbd3adc6.90334155/js/jquery/jquery-1.7.2.min.js:4)
 </pre></div></td>
-<td>0</td>
-<td>testcases.Addemployee@204f30ec</td></tr>
+<td>12</td>
+<td>testcases.Addemployee@6d4b1c02</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -221,13 +143,13 @@ Driver info: driver.version: unknown
 <tr>
 <td title='testcases.Addemployee.AddEmp()'><b>AddEmp</b><br>Test class: testcases.Addemployee</td>
 <td></td>
-<td>6</td>
-<td>testcases.Addemployee@204f30ec</td></tr>
+<td>3</td>
+<td>testcases.Addemployee@6d4b1c02</td></tr>
 <tr>
 <td title='testcases.Addemployee.login()'><b>login</b><br>Test class: testcases.Addemployee</td>
 <td></td>
-<td>2</td>
-<td>testcases.Addemployee@204f30ec</td></tr>
+<td>1</td>
+<td>testcases.Addemployee@6d4b1c02</td></tr>
 </table><p>
 </body>
 </html>

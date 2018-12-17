@@ -3,6 +3,7 @@
  <classes>
  <class name="testcases.Addemployee" priority="1"/>
  <class name="testcases.Education_information" priority="2"/> 
+ <class name="testcases.Leaveapplication" priority="3"/> 
  </classes>
  </test>
 </suite>
