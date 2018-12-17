@@ -34,9 +34,9 @@ public class Education_information extends Setup {
 	public void start() {
 
 	driver = s.Browser("Chrome");
-	extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
+	/*extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
 			Boolean.valueOf(true));
-	extent.addSystemInfo("HostName", "Sagar");
+	extent.addSystemInfo("HostName", "Sagar");*/
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  
 	}
